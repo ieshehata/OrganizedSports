@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.app.organizedsports">
+    package="com.app.sportsorganized">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -16,23 +16,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.user.UsersDetailsActivity"></activity>
-        <activity android:name=".activities.admin.ExercisesActivity" />
-        <activity android:name=".activities.admin.UsersActivity"
+        <activity android:name="com.app.sportsorganized.activities.user.UsersDetailsActivity"></activity>
+        <activity android:name="com.app.sportsorganized.activities.admin.ExercisesActivity" />
+        <activity android:name="com.app.sportsorganized.activities.admin.UsersActivity"
             android:theme="@style/AppTheme.NoActionBarBlack" />
 
-        <activity android:name=".activities.admin.TipsActivity" />
-        <activity android:name=".activities.admin.QuestionsActivity"
+        <activity android:name="com.app.sportsorganized.activities.admin.TipsActivity" />
+        <activity android:name="com.app.sportsorganized.activities.admin.QuestionsActivity"
             android:theme="@style/AppTheme.NoActionBarBlack" />
 
-        <activity android:name=".activities.user.UserMainActivity" />
-        <activity android:name=".activities.admin.AdminMainActivity" />
-        <activity android:name=".activities.auth.ResetPasswordActivity" />
-        <activity android:name=".activities.auth.RegisterActivity" />
-        <activity android:name=".activities.auth.OTPActivity" />
-        <activity android:name=".activities.auth.LoginActivity" />
-        <activity android:name=".activities.auth.ForgetPasswordActivity" />
-        <activity android:name=".activities.auth.UserTypeActivity">
+        <activity android:name="com.app.sportsorganized.activities.user.UserMainActivity" />
+        <activity android:name="com.app.sportsorganized.activities.admin.AdminMainActivity" />
+        <activity android:name="com.app.sportsorganized.activities.auth.ResetPasswordActivity" />
+        <activity android:name="com.app.sportsorganized.activities.auth.RegisterActivity" />
+        <activity android:name="com.app.sportsorganized.activities.auth.OTPActivity" />
+        <activity android:name="com.app.sportsorganized.activities.auth.LoginActivity" />
+        <activity android:name="com.app.sportsorganized.activities.auth.ForgetPasswordActivity" />
+        <activity android:name="com.app.sportsorganized.activities.auth.UserTypeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

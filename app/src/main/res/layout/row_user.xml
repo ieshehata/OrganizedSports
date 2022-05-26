@@ -10,8 +10,8 @@
     android:layout_marginBottom="8dp"
     android:layout_marginStart="2dp"
     android:layout_marginEnd="2dp"
-    android:background="@drawable/row_medium">
-
+    android:background="@drawable/back_round_rectangle"
+    android:backgroundTint="@color/colorLightYellow">
 
     <TextView
         android:id="@+id/name"
@@ -21,7 +21,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginEnd="16dp"
         android:maxLines="2"
-        android:text="User name"
+        android:text="caregiver name"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -38,7 +38,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="10dp"
         android:backgroundTint="@color/colorRed"
-        android:src="@drawable/round_delete_28"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:tint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -145,10 +146,9 @@
             android:layout_marginEnd="4dp"
             android:background="#00FFFFFF"
             android:text="Unblock"
-            android:backgroundTint="@color/colorPrimary"
-            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"/>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

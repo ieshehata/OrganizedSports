@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/caldroid_lighter_gray"
     tools:context=".activities.auth.OTPActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -41,6 +42,7 @@
                 android:text="@string/enter_the_code"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/icon"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -51,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:autofillHints=""
+                android:textColor="@color/black"
                 android:inputType="number"
                 android:hint ="@string/otp_hint"
                 app:layout_constraintTop_toBottomOf="@id/textView"
@@ -60,14 +63,14 @@
             <Button
                 android:id="@+id/verify"
                 android:layout_width="200dp"
-                android:layout_height="40dp"
+                android:layout_height="60dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/back_round_button_small"
-                android:backgroundTint="@color/colorPrimary"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimaryDark"
                 android:textSize="18sp"
                 android:text="@string/verify"
+                android:textStyle="bold"
                 app:layout_constraintTop_toBottomOf="@id/otp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>

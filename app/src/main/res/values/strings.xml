@@ -1,20 +1,6 @@
 <resources>
-    <string name="app_name">Organized Sports</string>
-    <string name="don_t_have_an_account_sign_up" />
-    <string name="title_activity_admin_main">AdminMainActivity</string>
-    <string name="tab_text_1">Seen Requests</string>
-    <string name="tab_text_2">Unseen Requests</string>
-    <string name="title_activity_station_main">StationMainActivity</string>
-    <string name="tab_text_3">Home</string>
-    <string name="tab_text_4">Requests</string>
-    <string name="tab_text_44">Complaints</string>
+    <string name="app_name">Organize Sports</string>
 
-    <string name="tab_text_5">Seen</string>
-    <string name="tab_text_6">Unseen</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="access_token" translatable="false">pk.eyJ1IjoibWFobW91ZDdlbGxhd2F0dHkiLCJhIjoiY2pzeW1jOTJ3MGRycTQzcXRjNHEycnExNyJ9.enxRekCKYRpiy_bpVTEl8Q</string>
-    <string name="sms" />
-    <string name="notifications" />
 
     <string name="type_activity">Choose Type</string>
     <string name="admin_dashboard_activity">Admin Dashboard</string>
@@ -38,6 +24,9 @@
     <string name="no_data">No data with this filter!</string>
     <string name="on_map">Show On Map</string>
 
+    <string name="tab_users">Users</string>
+    <string name="tab_requests">Requests</string>
+
 
     <string name="add_student">Student Data</string>
     <string name="add_subject">Subject Data</string>
@@ -49,7 +38,7 @@
     <string name="user_location_permission_explanation">Permission</string>
     <string name="current_location">Current Location</string>
     <string name="add_doctor">Doctor Data</string>
-    <string name="login">Login Now</string>
+    <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="product_name">Product Name</string>
 
@@ -69,16 +58,6 @@
     <string name="orders_description">You can observe every order customers make. And get all order information such as price, date, and status.</string>
     <string name="companies_description">You get requests when companies register. You have full control to Accept or Reject companies request. Not just that you can also deactivate any company you want at any time.</string>
     <string name="title_activity_system_data">System Data</string>
-
-    <string name="tab_stations">Stations</string>
-    <string name="tab_requests">Requests</string>
-    <string name="tab_users">Users</string>
-
-    <string name="tab_q_and_a">QuestionAndAns</string>
-    <string name="tab_q">Questions</string>
-
-    <string name="tab_gov">Governorates</string>
-    <string name="tab_cities">Cities</string>
 
     <string name="tab_posts">Posts</string>
     <string name="tab_achievements">Achievements</string>
@@ -117,6 +96,7 @@
 
     <string name="order">Order Now</string>
     <string name="product_image">Product Image</string>
+    <string name="profile">Profile</string>
     <string name="save">Save</string>
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
@@ -138,6 +118,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_tips">Tips</string>
     <string name="title_profile">Profile</string>
     <string name="title_chat">Chat</string>
     <string name="my_courses">My Courses</string>
@@ -487,51 +468,26 @@
     <string name="item_name">Item Name</string>
     <string name="zero" translatable="false">0.0</string>
     <string name="enter_valid">Enter Valid Value!</string>
-    <string name="card_no">Card No</string>
-    <string name="car_no">Car No</string>
-    <string name="station_name">Station Name</string>
-    <string name="governorate">Governorate</string>
-    <string name="city">City</string>
-    <string name="images">Images</string>
-    <string name="add_image">Add Image</string>
-    <string name="have_tanks_in_my_station">Have tanks in my station</string>
-    <string name="no_data_found">No Data Found!</string>
-    <string name="title_activity_main">MainActivity</string>
-    <string name="tank_requests">Tank Requests</string>
-    <string name="profile">Profile</string>
-    <string name="reservations">Reservations</string>
-    <string name="station_calender">Station Calender</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="title_activity_seller_main">SellerMainActivity</string>
-    <string name="wallet">Wallet</string>
-    <string name="current_balance">Current Balance</string>
-    <string name="actual_balance">Actual Balance</string>
-    <string name="pending_balance">Pending Balance</string>
-    <string name="finished">Finished</string>
-    <string name="place_bid">Place Bid</string>
-    <string name="review_item">Review Item</string>
-    <string name="view_bids">View Bids</string>
-    <string name="edit_item">Edit Item</string>
-    <string name="init_value">Init Value</string>
-    <string name="category">Category</string>
-    <string name="item_images">Item Images</string>
-    <string name="end_date">End Date</string>
-    <string name="start_date">Start Date</string>
-    <string name="approved">Approved</string>
-    <string name="end_time">End Time</string>
-    <string name="start_time">Start Time</string>
-    <string name="categories">Categories</string>
-    <string name="max_amount">Max Amount</string>
-    <string name="max_cars">Max Cars</string>
-    <string name="show_on_map">Show On Map</string>
-    <string name="tank_request">Tank Request</string>
-    <string name="amount">Amount</string>
-    <string name="add_authority_representatire">Authority Representatives</string>
-    <string name="representatire_name">Representative Name</string>
-    <string name="representatire_password">Representative Password</string>
-    <string name="representatire_email">Representative Email</string>
-    <string name="category_icon">Category Icon</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="title_activity_user_home">MainActivity</string>
 </resources>
